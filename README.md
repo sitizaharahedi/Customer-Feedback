@@ -30,4 +30,4 @@ Conducted simple data wrangling and data cleaning:
 - Produced a 1-pager dashboard using Power BI.
 - Power BI : [Link](https://app.powerbi.com/view?r=eyJrIjoiZGRlZjI3MWYtMDU0Ny00YTY0LWJjMGItYTdiOGY3MjUxYjcyIiwidCI6ImFjZWQ1ODNlLTRhM2ItNDJkZS05ZTQ0LTRlNWFmYTk5Yjk4YSIsImMiOjEwfQ%3D%3D)
 
-![Customer Feedback](./HR-Analysis-Attrition.jpg)
+![Customer Feedback](./Customer-Feedback.jpg)
