@@ -3,8 +3,6 @@
 ## 📚 About Data
 This dashboard presents detailed hotel customer feedback from 2020 to 2022, covering overall satisfaction (3.60/5), NPS score (11.43), visit purpose, gender distribution, and feedback volume by service area. It highlights key insights into guest experience drivers, referral sources, and trends across channels like booking sites, word of mouth, and advertisements.
 
-#customerfeedback
-
 ## 💡 Highlights
 
 - Overall customer rating stands at 3.60 out of 5, with a Net Promoter Score (NPS) of 11.43, indicating moderate customer satisfaction and loyalty.
@@ -20,10 +18,6 @@ Conducted simple data wrangling and data cleaning:
 - Cleaned Valuation and Funding columns and cast as float
 - Exclude rows with "Unknown" Funding values
 - Explode Select Investors column into individual rows for categorical analysis
-
-📍 Jupyter script: Notebook
-
-📍 Clean Data: a.csv
 
 ## 📊 Visualization
 - Produced a 1-pager dashboard using Power BI.
