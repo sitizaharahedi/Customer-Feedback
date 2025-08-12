@@ -1,7 +1,15 @@
 # 🖥️ Customer Feedback Dashboard
 
+An interactive Power BI dashboard showcasing hotel customer satisfaction data from 2020 to 2022, capturing overall ratings, NPS score, visit reasons, gender distribution, service-specific feedback and information sources. Built to help hospitality teams identify satisfaction trends and improve the guest experience.
+
 ## 📚 About Data
-This dashboard presents detailed hotel customer feedback from 2020 to 2022, covering overall satisfaction (3.60/5), NPS score (11.43), visit purpose, gender distribution, and feedback volume by service area. It highlights key insights into guest experience drivers, referral sources, and trends across channels like booking sites, word of mouth, and advertisements.
+
+This dataset consists of hotel customer feedback records collected over three years. It includes:
+- Customer Ratings & Net Promoter Score (NPS)
+- Visit Purpose (Vacation, Business, etc.)
+- Gender Distribution
+- Feedback Volume by Service Area (Staff, Room, Facility, Restaurant)
+- Source of Information (e.g., Booking sites, Word of mouth)
 
 ## 💡 Highlights
 
@@ -12,15 +20,27 @@ This dashboard presents detailed hotel customer feedback from 2020 to 2022, cove
 - Organization (778) is the top source of information, while hotel booking sites and word of mouth show strong and consistent trends across the years.
 
 ## ✏️ Data Wrangling
-Conducted simple data wrangling and data cleaning:
 
 - Removed rows with missing values
-- Cleaned Valuation and Funding columns and cast as float
-- Exclude rows with "Unknown" Funding values
-- Explode Select Investors column into individual rows for categorical analysis
+- Cleaned and converted numerical columns
+- Filtered out "Unknown" values in key fields
+- Performed categorical expansion for source analysis
 
-## 📊 Visualization
-- Produced a 1-pager dashboard using Power BI.
-- Power BI : [Link](https://app.powerbi.com/view?r=eyJrIjoiZGRlZjI3MWYtMDU0Ny00YTY0LWJjMGItYTdiOGY3MjUxYjcyIiwidCI6ImFjZWQ1ODNlLTRhM2ItNDJkZS05ZTQ0LTRlNWFmYTk5Yjk4YSIsImMiOjEwfQ%3D%3D)
+## 🔍 Purpose
+
+This dashboard helps hotel managers, marketers and customer experience teams:
+- Understand guest satisfaction trends
+- Prioritize service areas with the most feedback (e.g., Staff, Room)
+- Identify who their guests are and why they visit
+- Optimize marketing and booking strategies based on source trends
+
+## 🧠 Data Storytelling
+Between 2020 and 2022, guests rated their hotel experience moderately with an average of 3.60/5, supported by an NPS of 11.43, indicating some customer loyalty but room for improvement. Guest feedback shows staff performance is both a key interaction point and a feedback hotspot, suggesting it plays a major role in guest perception.
+
+The data also reveals that vacationers and event attendees make up the bulk of visitors, meaning hospitality efforts should prioritize leisure and function, based experiences. Furthermore, female guests appear more inclined to engage with feedback systems, an opportunity to tailor post-stay engagement. Information channels like organizations and booking platforms have been consistent referral drivers, proving valuable for targeted marketing efforts.
+
+
+## 📌 Tools Used
+Power BI for data visualization and dashboard development [Link](https://app.powerbi.com/view?r=eyJrIjoiZGRlZjI3MWYtMDU0Ny00YTY0LWJjMGItYTdiOGY3MjUxYjcyIiwidCI6ImFjZWQ1ODNlLTRhM2ItNDJkZS05ZTQ0LTRlNWFmYTk5Yjk4YSIsImMiOjEwfQ%3D%3D)
 
 ![Customer Feedback](./Customer-Feedback.jpg)
